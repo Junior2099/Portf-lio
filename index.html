@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Projetos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px; /* Compensa a navegação fixa */
+}
+
+header {
+    background: url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+.nav-link {
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #17a2b8;
+}
+
+h2 {
+    border-bottom: 2px solid #17a2b8;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Meu Portfólio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-dark text-white text-center py-5" id="about">
+        <h1>Meu Portfólio</h1>
+        <p>Olá meu nome é José Antonio, Bem-vindo(a) ao meu portfólio de projetos do GitHub</p>
+    </header>
+
+    <main class="container my-5" id="projects">
+        <h2 class="text-center my-4">Projetos recentes:</h2>
+        <div class="row">
+            <!-- Exemplo de Projeto -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Crud Aspnet</h5>
+                        <p class="card-text">Um Crud no exemplo de academia em C# ASPNET</p>
+                        <a href="https://github.com/Junior2099/MVC---ASPNET" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repita este bloco para cada projeto -->
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h5 class="card-title">Currículo</h5>
+                      <p class="card-text">Faça seu currículo e salve em PDF</p>
+                      <a href="https://github.com/Junior2099/8--curriculo" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Bot IA Chatbot Whatsapp</h5>
+                    <p class="card-text">Um Chatbot usando IA</p>
+                    <a href="https://github.com/Junior2099/chatbot-whatsapp" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+              <div class="card-body">
+                  <h5 class="card-title">Real para Dólar</h5>
+                  <p class="card-text">Confira a cotação do Dólar para Real</p>
+                  <a href="https://github.com/Junior2099/converterRealPDolar" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title"> To do List </h5>
+                <p class="card-text">Faça um lista com seus afazeres</p>
+                <a href="https://github.com/Junior2099/15--To-do-List" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+          <div class="card-body">
+              <h5 class="card-title">Hora do dia</h5>
+              <p class="card-text">Hora do dia, um site simples que mostra o horário junto de uma imagem temática</p>
+              <a href="https://github.com/Junior2099/9--horaDia" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-4 mb-4">
+    <div class="card h-100">
+        <div class="card-body">
+            <h5 class="card-title">Temperatura atual</h5>
+            <p class="card-text">Um site que mostra a temperatura atual</p>
+            <a href="https://github.com/Junior2099/16--temp" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+        </div>
+    </div>
+</div>
+<div class="col-md-4 mb-4">
+  <div class="card h-100">
+      <div class="card-body">
+          <h5 class="card-title">Jogo da memória</h5>
+          <p class="card-text">Um jogo simples de memoria com tema programação</p>
+          <a href="https://github.com/Junior2099/17--jogoMemoria" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+      </div>
+  </div>
+</div>
+<div class="col-md-4 mb-4">
+  <div class="card h-100">
+      <div class="card-body">
+          <h5 class="card-title">Melhorar fotos</h5>
+          <p class="card-text">Melhore a iluminação e contraste de suas imagens em 1 click</p>
+          <a href="https://github.com/Junior2099/12--melhorarImagem" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+      </div>
+  </div>
+</div>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-4" id="contact">
+        <p>&copy; 2024 José Antonio da Silva Filho</p>
+        <p> Telefone para contato profissional: (11) 9 8991-9526</p>
+        <p>Siga-me nas redes sociais: 
+            <a href="https://www.linkedin.com/in/jos%C3%A9-silva-593870229/" class="text-dark"><i class="fab fa-linkedin"></i></a>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script> $(document).ready(function() {
+      const username = 'seu-usuario';
+      const repoCount = 6; // Número de repositórios a exibir
+  
+      $.getJSON(`https://api.github.com/users/${username}/repos?sort=created&per_page=${repoCount}`, function(repos) {
+          repos.forEach(repo => {
+              let projectCard = `
+                  <div class="col-md-4 mb-4">
+                      <div class="card h-100">
+                          <div class="card-body">
+                              <h5 class="card-title">${repo.name}</h5>
+                              <p class="card-text">${repo.description}</p>
+                              <a href="${repo.html_url}" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+                          </div>
+                      </div>
+                  </div>
+              `;
+              $('.row').append(projectCard);
+          });
+      });
+  });
+  </script>>
+</body>
+</html>
