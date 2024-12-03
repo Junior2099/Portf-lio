@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Projetos</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Sobre Mim</title>
+    <!-- Link para o tema Morph do Bootstrap 5 -->
+    <link href="https://bootswatch.com/5/morph/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <style>
 body {
     font-family: 'Roboto', sans-serif;
@@ -19,7 +21,6 @@ header {
     background: url('banner.jpg') no-repeat center center;
     background-size: cover;
     color: white;
-    margin: 0;
 }
 
 .card {
@@ -33,7 +34,6 @@ header {
 
 footer {
     background-color: #f8f9fa;
-    margin: 0;
 }
 
 .nav-link {
@@ -57,55 +57,48 @@ img.rounded-circle {
 #about p {
     text-align: justify;
 }
-
 </style>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"> Voltar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.html">Voltar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-
-                </ul>
+                <ul class="navbar-nav ms-auto"></ul>
             </div>
         </div>
     </nav>
 
     <header class="bg-dark text-white text-center py-5">
-        <h1>Portfólio</h1>
-        <p>Olá meu nome é José Antonio, Bem-vindo(a) ao meu portfólio de projetos do GitHub</p>
+        <h1>Sobre Mim</h1>
+        <p>Bem-vindo(a) ao meu portfólio!</p>
     </header>
 
-    <main class="container my-5" id="projects">
-        <section class="bg-light py-5" id="about">
-            <div class="container">
-                <h2 class="text-center my-4">Sobre Mim</h2>
-                <div class="row">
-                    <div class="col-lg-4 text-center mb-4">
-                        <img src="https://avatars.githubusercontent.com/u/95588788?v=4" alt="José antonio" class="rounded-circle img-fluid">
-                    </div>
-                    <div class="col-lg-8"> <p>Olá! Eu sou o José Antonio, um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Com uma sólida experiência em desenvolvimento web, estou cursando o 3 semestre de análise e desenvolvimento de sistemas, tenho trabalhado em diversos projetos que variam de simples páginas informativas a complexas aplicações interativas. Sou adepto das melhores práticas de desenvolvimento e sempre busco aprender novas tecnologias para aprimorar minhas habilidades.</p> <p>Quando não estou codificando, gosto de explorar novas áreas de conhecimento, ler livros sobre tecnologia e ciência, e colaborar em projetos de código aberto. Estou sempre em busca de novos desafios que possam contribuir para o meu crescimento pessoal e profissional.</p> <p>Atualmente, trabalho com atendimento ao público, o que muitas vezes é desafiador. Esse ambiente me motivou a estudar programação como uma maneira de mudar de vida. Meu GitHub é <a href="https://github.com/Junior2099" target="_blank">github.com/Junior2099</a>.</p> 
-                </div>
+    <main class="container my-5" id="about">
+        <h2 class="text-center my-4">Quem Sou Eu</h2>
+        <div class="row">
+            <div class="col-lg-4 text-center mb-4">
+                <img src="https://avatars.githubusercontent.com/u/95588788?v=4" alt="José Antonio" class="rounded-circle img-fluid">
             </div>
-        </section>
-    
+            <div class="col-lg-8">
+                <p>Olá! Eu sou o José Antonio, um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Com experiência em desenvolvimento web e cursando o terceiro semestre de Análise e Desenvolvimento de Sistemas, tenho trabalhado em diversos projetos que variam de simples páginas a complexas aplicações interativas.</p>
+                <p>Atualmente trabalho com atendimento ao público, o que me motivou a estudar programação para buscar novas oportunidades. Sou adepto das melhores práticas e sempre busco aprender novas tecnologias. Meu GitHub: <a href="https://github.com/Junior2099" target="_blank">github.com/Junior2099</a>.</p>
+            </div>
+        </div>
     </main>
 
- 
-    <footer class="text-center py-4" id="contact">
+    <footer class="text-center py-4">
         <p>&copy; 2024 José Antonio</p>
-        <p> Telefone para contato profissional: (11) 9 8991-9526</p>
-        <p>Siga-me nas redes sociais: 
+        <p>Contato: (11) 9 8991-9526</p>
+        <p>
+            Siga-me: 
             <a href="https://www.linkedin.com/in/jos%C3%A9-silva-593870229/" class="text-dark"><i class="fab fa-linkedin"></i></a>
         </p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
