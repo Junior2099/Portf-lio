@@ -1,178 +1,125 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Projetos</title>
-    <!-- Link para o tema Morph do Bootstrap 5 -->
-    <link href="https://bootswatch.com/5/morph/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://img.icons8.com/?size=100&id=LB3Jb0Goc0qL&format=png&color=000000">
 </head>
 
-<style>
-  body {
-    font-family: 'Roboto', sans-serif;
-    padding-top: 70px; /* Compensa a navegação fixa */
-}
-
-header {
-    background: url('banner.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-}
-
-.card {
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-footer {
-    background-color: #f8f9fa;
-}
-
-.nav-link {
-    transition: color 0.3s;
-}
-
-.nav-link:hover {
-    color: #17a2b8;
-}
-
-h2 {
-    border-bottom: 2px solid #17a2b8;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-</style>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Meu Portfólio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
-                </ul>
-            </div>
+
+    <nav>
+        <div class="logo">
+            <img src="https://img.icons8.com/?size=100&id=LoL4bFzqmAa0&format=png&color=000000">
+            <a href="https://github.com/junior2099" target="_blank">Junior2099</a>
         </div>
+        <div class="nav-links">
+            <a href="https://www.instagram.com/antoniosilva19977/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/jos%C3%A9-silva-593870229/" target="_blank">Linkedin</a>
+            <a href="https://github.com/Junior2099?tab=repositories" target="_blank">Projects</a>
+            <a href="https://www.youtube.com/@GloriousInvocation/videos" target="_blank">Youtube</a>
+        </div>
+        <a href="https://github.com/Junior2099?tab=repositories" target="_blank">
+            <button>
+              <i class="ri-github-fill"></i> My Projects
+            </button>
+          </a>
+          
+          
     </nav>
 
-    <header class="bg-dark text-white text-center py-5" id="about">
-        <h1>Meu Portfólio</h1>
-        <p>Olá meu nome é José Antonio, Bem-vindo(a) ao meu portfólio de projetos do GitHub</p>
-    </header>
+    <div class="hero">
+        <div class="left-section">
+            <div class="top">
+                <h2>Creative FullStack Web Developer</h2>
+                <p>
+                    Design and code beautifully simple projects without overwhelming yourself with complexity. Enjoy
+                    your
+                    passion for creating with ease and love.
+                </p>
 
-    <main class="container my-5" id="projects">
-        <h2 class="text-center my-4">Projetos recentes:</h2>
-        <div class="row">
-            <!-- Exemplo de Projeto -->
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Crud Aspnet</h5>
-                        <p class="card-text">Um Crud no exemplo de academia em C# ASPNET</p>
-                        <a href="https://github.com/Junior2099/MVC---ASPNET" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-                    </div>
+                <div class="buttons">
+                    <button class="doc">Hire Me Now <i class="ri-arrow-right-line"></i></button>
+                    <a href="https://github.com/junior2099" target="_blank">
+                        <button>
+                          <i class="ri-github-fill"></i> My github
+                        </button>
+                      </a>
                 </div>
             </div>
-            <!-- Repita este bloco para cada projeto -->
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                  <div class="card-body">
-                      <h5 class="card-title">Currículo</h5>
-                      <p class="card-text">Faça seu currículo e salve em PDF</p>
-                      <a href="https://github.com/Junior2099/8--curriculo" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title">Bot IA Chatbot Whatsapp</h5>
-                    <p class="card-text">Um Chatbot usando IA</p>
-                    <a href="https://github.com/Junior2099/chatbot-whatsapp" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+            <div class="bottom">
+                <p>Other Socials:</p>
+                <div class="icons">
+                    <a href="https://www.youtube.com/@GloriousInvocation/videos" target="_blank">   <i class="ri-youtube-line"></i> </a>
+                   <a href="https://www.linkedin.com/in/jos%C3%A9-silva-593870229/" target="_blank">  <i class="ri-linkedin-box-line"></i></a>
+                   <a href="https://www.instagram.com/antoniosilva19977/" target="_blank"> <i class="ri-instagram-line"></i> </a>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-              <div class="card-body">
-                  <h5 class="card-title">Real para Dólar</h5>
-                  <p class="card-text">Confira a cotação do Dólar para Real</p>
-                  <a href="https://github.com/Junior2099/converterRealPDolar" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title"> To do List </h5>
-                <p class="card-text">Faça um lista com seus afazeres</p>
-                <a href="https://github.com/Junior2099/15--To-do-List" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+
+
+
+
+        <img src="https://avatars.githubusercontent.com/u/95588788?v=4">
+
+    </div>
+
+    <div class="about">
+        <p>I have been developing for some time, I dream of working in the area</p>
+        <h3> click on the images and go to the project</h3> <br> <br>
+        <h2>I create user-friendly, websites and applications.</h2>
+ 
+        <a href="https://github.com/Junior2099/Placas_Casa_Carne" target="_blank"><div class="items">
+            <div class="item">
+                <div class="inner">
+                    <img src="https://private-user-images.githubusercontent.com/95588788/408658325-18daf3b8-37be-4e23-a6ee-e3ca062c32df.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkyMTk0MzAsIm5iZiI6MTczOTIxOTEzMCwicGF0aCI6Ii85NTU4ODc4OC80MDg2NTgzMjUtMThkYWYzYjgtMzdiZS00ZTIzLWE2ZWUtZTNjYTA2MmMzMmRmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjEwVDIwMjUzMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiZWMzNTZiYjk2MjlhMTU3OWMyODdkMDJiOTEyODBlZTZmMWI3N2UxMGM3OGU5ODEwYWUxMjdmMzZjMDE2NTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.NbW04oX7ePGYMtQR2sYevdgqidLjPTwSYCShcFGVQK8">
+                    <a href="#">Meat house plates</a>
+                    <p>a website created to make signs, with prices and names for printing</p>
+                </div>
+            </div></a>
+
+            <a href="https://github.com/Junior2099/Organizador-de-Fotos" target="_blank"> <div class="item">
+                <div class="inner">
+                    <img src="https://private-user-images.githubusercontent.com/95588788/407951119-972d48ec-0446-4e5c-9d93-ae936d7f4300.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkyMTk1NTksIm5iZiI6MTczOTIxOTI1OSwicGF0aCI6Ii85NTU4ODc4OC80MDc5NTExMTktOTcyZDQ4ZWMtMDQ0Ni00ZTVjLTlkOTMtYWU5MzZkN2Y0MzAwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjEwVDIwMjczOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJmM2JlNTg2YTdkNTc5MGEzOWUyYzRiNDI1ODVlOWYwMjI2YjgwYTM4YzVjMjQwZWYxMjE1NzA2ZTE2MTRmYzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hxhfY9MNtnJUmz2-bIlM2ipsDYEkfqTKhvxUzyICS9A">
+                    <a href="#">Printable organizer</a>
+                    <p>A website to organize and print photos of different sizes</p>
+                </div></a>
+            </div>
+           <a href="https://github.com/Junior2099/Fotos-Polaroid" target="_blank"><div class="item">
+                <div class="inner">
+                    <img src="https://private-user-images.githubusercontent.com/95588788/407960283-d0a228df-e8a2-4def-9e86-c9dc1efdfdd0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzkyMTk3OTcsIm5iZiI6MTczOTIxOTQ5NywicGF0aCI6Ii85NTU4ODc4OC80MDc5NjAyODMtZDBhMjI4ZGYtZThhMi00ZGVmLTllODYtYzlkYzFlZmRmZGQwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjEwVDIwMzEzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFiODQ2ZjUxMTJjN2ZiODU3YmUxZDRlODNjZTY3ZGY0Y2E5MTAwN2RhMTkzMWFjNDE1NzRmMmQ2YzhmYzhlMGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ylI3j4o6IxvL6bWqxjKoQtECu2opR-IDoSU9k2UNhPo">
+                    <a href="#">Turn photos into polaroid</a>
+                    <p>A website to transform photos into polaroid size</p>
+                </div>
+            </div>
+        </div>
+    </div></a> 
+
+   
+    <div class="contact">
+        <h2>Interested in Working Together?</h2>
+        <div class="items">
+            <div class="item">
+                <a href="#">Schedule a call</a>
+                <p>Let's discuss your project ideas and how I can help you.</p>
+                <a href="https://wa.me/5511989919526" target="_blank"> <button>Schedule a Call</button> </a>
+            </div>
+            <div class="item">
+              <a href="">Explore My Work</a>
+                <p>View my portfolio to see the kind of work I do for you.</p>
+                <a href="https://github.com/junior2099" target="_blank"> <button>View My Work</button></a> 
             </div>
         </div>
     </div>
-    <div class="col-md-4 mb-4">
-      <div class="card h-100">
-          <div class="card-body">
-              <h5 class="card-title">Hora do dia</h5>
-              <p class="card-text">Hora do dia, um site simples que mostra o horário junto de uma imagem temática</p>
-              <a href="https://github.com/Junior2099/9--horaDia" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-          </div>
-      </div>
-  </div>
-  <div class="col-md-4 mb-4">
-    <div class="card h-100">
-        <div class="card-body">
-            <h5 class="card-title">Temperatura atual</h5>
-            <p class="card-text">Um site que mostra a temperatura atual</p>
-            <a href="https://github.com/Junior2099/16--temp" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-        </div>
-    </div>
-</div>
-<div class="col-md-4 mb-4">
-  <div class="card h-100">
-      <div class="card-body">
-          <h5 class="card-title">Jogo da memória</h5>
-          <p class="card-text">Um jogo simples de memoria com tema programação</p>
-          <a href="https://github.com/Junior2099/17--jogoMemoria" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-      </div>
-  </div>
-</div>
-<div class="col-md-4 mb-4">
-  <div class="card h-100">
-      <div class="card-body">
-          <h5 class="card-title">Melhorar fotos</h5>
-          <p class="card-text">Melhore a iluminação e contraste de suas imagens em 1 click</p>
-          <a href="https://github.com/Junior2099/12--melhorarImagem" class="btn btn-primary" target="_blank">Ver no GitHub</a>
-      </div>
-  </div>
-</div>
 
-        </div>
-    </main>
-
-    <footer class="text-center py-4" id="contact">
-        <p>&copy; 2024 José Antonio da Silva Filho</p>
-        <p>Telefone para contato profissional: (11) 9 8991-9526</p>
-        <p>Siga-me nas redes sociais: 
-            <a href="https://www.linkedin.com/in/jos%C3%A9-silva-593870229/" class="text-dark"><i class="fab fa-linkedin"></i></a>
-        </p>
+    <footer>
+        <p>© 2025 José Antonio da Silva Filho</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
