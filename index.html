@@ -7,10 +7,13 @@
     <meta name="description" content="Portfólio de José Antonio da Silva Filho - Desenvolvedor Web FullStack">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     <title>Portfólio Pessoal | Junior2099</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="https://img.icons8.com/?size=100&id=LB3Jb0Goc0qL&format=png&color=000000">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://img.icons8.com/?size=100&id=LB3Jb0Goc0qL&format=png&color=000000">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -26,49 +29,51 @@
             --border-radius: 12px;
             --transition: all 0.3s ease;
         }
-    
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
             font-family: "Poppins", "Inter", sans-serif;
         }
-    
+
         body {
             background-color: #fff;
             color: var(--text-color);
             line-height: 1.6;
             overflow-x: hidden;
         }
-    
+
         a {
             text-decoration: none;
             color: inherit;
         }
-    
+
         button {
             cursor: pointer;
             transition: var(--transition);
         }
-    
+
         img {
             max-width: 100%;
             height: auto;
             object-fit: cover;
         }
-    
-        h1, h2, h3 {
+
+        h1,
+        h2,
+        h3 {
             font-weight: 600;
             line-height: 1.2;
         }
-    
+
         .container {
             width: 100%;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-    
+
         .btn {
             display: inline-flex;
             align-items: center;
@@ -81,39 +86,38 @@
             border: none;
             font-size: 16px;
         }
-    
+
         .btn-primary {
             background-color: var(--primary-color);
             color: white;
         }
-    
+
         .btn-primary:hover {
             background-color: var(--secondary-color);
             transform: translateY(-2px);
         }
-    
+
         .btn-outline {
             background-color: transparent;
             border: 1px solid var(--border-color);
             color: var(--text-color);
         }
-    
+
         .btn-outline:hover {
             background-color: var(--light-color);
             border-color: var(--primary-color);
         }
-    
+
         .btn-dark {
             background-color: var(--dark-color);
             color: white;
         }
-    
+
         .btn-dark:hover {
             background-color: #333;
             transform: translateY(-2px);
         }
-    
-        /* Navigation */
+
         nav {
             display: flex;
             align-items: center;
@@ -129,7 +133,7 @@
             z-index: 1000;
             backdrop-filter: blur(10px);
         }
-    
+
         nav .logo {
             display: flex;
             align-items: center;
@@ -137,28 +141,28 @@
             font-weight: 600;
             color: var(--dark-color);
         }
-    
+
         nav .logo img {
             width: 30px;
             height: 30px;
         }
-    
+
         nav .nav-links {
             display: flex;
             gap: 20px;
         }
-    
+
         nav .nav-links a {
             font-size: 15px;
             color: var(--text-light);
             transition: var(--transition);
             position: relative;
         }
-    
+
         nav .nav-links a:hover {
             color: var(--primary-color);
         }
-    
+
         nav .nav-links a::after {
             content: '';
             position: absolute;
@@ -169,11 +173,11 @@
             background-color: var(--primary-color);
             transition: var(--transition);
         }
-    
+
         nav .nav-links a:hover::after {
             width: 100%;
         }
-    
+
         nav .menu-toggle {
             display: none;
             background: none;
@@ -182,68 +186,67 @@
             color: var(--dark-color);
             cursor: pointer;
         }
-    
-        /* Hero Section */
+
         .hero {
             padding: 120px 0 80px;
             min-height: 100vh;
             display: flex;
             align-items: center;
         }
-    
+
         .hero .container {
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 40px;
         }
-    
+
         .hero-content {
             flex: 1;
             max-width: 600px;
         }
-    
+
         .hero-image {
             flex: 1;
             display: flex;
             justify-content: center;
         }
-    
+
         .hero-image img {
             border-radius: 65px;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             max-width: 260px;
             height: auto;
         }
-    
+
         .hero h1 {
             font-size: 48px;
             margin-bottom: 20px;
             color: var(--dark-color);
         }
-    
+
         .hero h1 span {
             color: var(--primary-color);
         }
-    
+
         .hero p {
             font-size: 18px;
             color: var(--text-light);
             margin-bottom: 30px;
         }
-    
+
         .hero-buttons {
             display: flex;
             gap: 15px;
             margin-bottom: 40px;
         }
-    
+
         .social-links {
             display: flex;
             align-items: center;
             gap: 15px;
         }
-    
+
         .social-links a {
             display: flex;
             align-items: center;
@@ -255,24 +258,23 @@
             color: var(--text-color);
             transition: var(--transition);
         }
-    
+
         .social-links a:hover {
             background-color: var(--primary-color);
             color: white;
             transform: translateY(-3px);
         }
-    
-        /* About Section */
+
         .about {
             padding: 80px 0;
             background-color: var(--light-color);
         }
-    
+
         .section-header {
             text-align: center;
             margin-bottom: 50px;
         }
-    
+
         .section-header p {
             display: inline-block;
             background-color: white;
@@ -283,25 +285,25 @@
             margin-bottom: 15px;
             border: 1px solid var(--border-color);
         }
-    
+
         .section-header h2 {
             font-size: 36px;
             margin-bottom: 15px;
             color: var(--dark-color);
         }
-    
+
         .section-header h3 {
             font-size: 18px;
             color: var(--text-light);
             font-weight: 400;
         }
-    
+
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 30px;
         }
-    
+
         .project-card {
             background-color: white;
             border-radius: var(--border-radius);
@@ -310,56 +312,55 @@
             transition: var(--transition);
             border: 1px solid var(--border-color);
         }
-    
+
         .project-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
         }
-    
+
         .project-card img {
             width: 100%;
             height: 200px;
             object-fit: cover;
         }
-    
+
         .project-info {
             padding: 20px;
         }
-    
+
         .project-info h3 {
             font-size: 20px;
             margin-bottom: 10px;
         }
-    
+
         .project-info p {
             color: var(--text-light);
             margin-bottom: 15px;
             font-size: 15px;
         }
-    
-        /* Projects Section */
+
         .projects {
             padding: 80px 0;
             background-color: var(--dark-color);
             color: white;
         }
-    
+
         .projects .section-header h2 {
             color: white;
         }
-    
+
         .projects .section-header p {
             background-color: rgba(255, 255, 255, 0.1);
             color: rgba(255, 255, 255, 0.8);
             border: none;
         }
-    
+
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
         }
-    
+
         .service-card {
             background-color: #262626;
             padding: 30px;
@@ -367,103 +368,116 @@
             border: 1px solid #333;
             transition: var(--transition);
         }
-    
+
         .service-card:hover {
             background-color: #333;
             transform: translateY(-5px);
         }
-    
+
         .service-card i {
             font-size: 40px;
             color: var(--primary-color);
             margin-bottom: 20px;
             display: inline-block;
         }
-    
+
         .service-card h3 {
             font-size: 20px;
             margin-bottom: 15px;
         }
-    
+
         .service-card p {
             color: #a1a1a1;
             font-size: 15px;
         }
-    
+
         .cta-button {
             text-align: center;
             margin-top: 40px;
         }
-    
-        /* Contact Section */
+
         .contact {
             padding: 80px 0;
             background-color: var(--light-color);
         }
-    
+
         .contact-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
             gap: 20px;
+            flex-wrap: wrap;
         }
-    
+
         .contact-card {
             background-color: white;
             padding: 30px;
             border-radius: var(--border-radius);
             border: 1px solid var(--border-color);
             transition: var(--transition);
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
         }
-    
+
         .contact-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
         }
-    
-        .contact-card h3 {
-            font-size: 22px;
+
+        .contact-card h3,
+        .contact-card p {
+            text-align: center;
             margin-bottom: 15px;
         }
-    
+
+        .contact-card .btn {
+            align-self: center;
+            width: fit-content;
+        }
+
         .contact-card p {
             color: var(--text-light);
             margin-bottom: 20px;
         }
-    
-        /* Footer */
+
         footer {
             background-color: var(--dark-color);
             color: white;
             padding: 30px 0;
             text-align: center;
         }
-    
+
         .footer-content {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 15px;
         }
-    
+
         .footer-links {
             display: flex;
             gap: 20px;
         }
-    
+
         .footer-links a {
             color: #a1a1a1;
             transition: var(--transition);
         }
-    
+
         .footer-links a:hover {
             color: white;
         }
-    
+
         .copyright {
             color: #a1a1a1;
             font-size: 14px;
         }
-    
+
         /* Back to Top Button */
         .back-to-top {
             position: fixed;
@@ -484,36 +498,35 @@
             transition: var(--transition);
             z-index: 999;
         }
-    
+
         .back-to-top.active {
             opacity: 1;
             visibility: visible;
         }
-    
+
         .back-to-top:hover {
             background-color: var(--secondary-color);
             transform: translateY(-3px);
         }
-    
-        /* Responsive Styles */
+
         @media screen and (max-width: 992px) {
             .hero .container {
                 flex-direction: column-reverse;
                 text-align: center;
             }
-    
+
             .hero-content {
                 max-width: 100%;
             }
-    
+
             .hero-buttons {
                 justify-content: center;
             }
-    
+
             .social-links {
                 justify-content: center;
             }
-    
+
             nav .nav-links {
                 position: fixed;
                 top: 70px;
@@ -528,76 +541,78 @@
                 transition: var(--transition);
                 z-index: 999;
             }
-    
+
             nav .nav-links.active {
                 transform: translateY(0);
             }
-    
+
             nav .menu-toggle {
                 display: block;
             }
-    
+
             .hero h1 {
                 font-size: 36px;
             }
-    
+
             .section-header h2 {
                 font-size: 30px;
             }
         }
-    
+
         @media screen and (max-width: 768px) {
             .hero h1 {
                 font-size: 32px;
             }
-    
+
             .hero p {
                 font-size: 16px;
             }
-    
+
             .hero-buttons {
                 flex-direction: column;
                 gap: 10px;
             }
-    
+
             .btn {
                 width: 100%;
             }
-    
+
             .section-header h2 {
                 font-size: 28px;
             }
-    
+
             .project-card img {
                 height: 180px;
             }
-    
+
             .service-card {
                 padding: 20px;
             }
         }
-    
+
         @media screen and (max-width: 576px) {
             nav {
                 padding: 12px 20px;
             }
-    
+
             .hero {
                 padding: 100px 0 60px;
             }
-    
+
             .hero h1 {
                 font-size: 28px;
             }
-    
+
             .section-header h2 {
                 font-size: 24px;
             }
-    
-            .projects-grid, .services-grid, .contact-grid {
+
+            .projects-grid,
+            .services-grid,
+            .contact-grid {
                 grid-template-columns: 1fr;
             }
-    
+
             .back-to-top {
                 width: 40px;
                 height: 40px;
@@ -606,51 +621,64 @@
                 right: 20px;
             }
         }
-    
+
         /* Animation */
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-    
+
         .fade-in {
             animation: fadeIn 0.8s ease forwards;
         }
-    
-        .delay-1 { animation-delay: 0.2s; }
-        .delay-2 { animation-delay: 0.4s; }
-        .delay-3 { animation-delay: 0.6s; }
+
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
     </style>
 
-    <!-- Navigation -->
     <nav>
         <div class="logo">
             <img src="https://img.icons8.com/?size=100&id=LoL4bFzqmAa0&format=png&color=000000" alt="Logo">
             <a href="#">Junior2099</a>
         </div>
-        
+
         <div class="nav-links">
             <a href="#about">Sobre</a>
             <a href="#projects">Projetos</a>
             <a href="#services">Habilidades</a>
             <a href="#contact">Contato</a>
         </div>
-        
+
         <button class="menu-toggle">
             <i class="ri-menu-line"></i>
         </button>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content fade-in">
                 <h1>Desenvolvedor Web <span>FullStack</span> Criativo</h1>
                 <p class="delay-1">
-                    Projete e codifique projetos lindamente simples sem se sobrecarregar com complexidade. 
+                    Projete e codifique projetos lindamente simples sem se sobrecarregar com complexidade.
                     Aproveite sua paixão por criar com facilidade e amor.
                 </p>
-                
+
                 <div class="hero-buttons delay-2">
                     <a href="#contact" class="btn btn-primary">
                         Contrate-me Agora <i class="ri-arrow-right-line"></i>
@@ -659,12 +687,13 @@
                         <i class="ri-github-fill"></i> Meu GitHub
                     </a>
                 </div>
-                
+
                 <div class="social-links delay-3">
                     <a href="https://www.youtube.com/@GloriousInvocation/videos" target="_blank" aria-label="YouTube">
                         <i class="ri-youtube-line"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/jos%C3%A9-silva-593870229/" target="_blank" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/jos%C3%A9-silva-593870229/" target="_blank"
+                        aria-label="LinkedIn">
                         <i class="ri-linkedin-box-line"></i>
                     </a>
                     <a href="https://www.instagram.com/antoniosilva19977/" target="_blank" aria-label="Instagram">
@@ -672,77 +701,78 @@
                     </a>
                 </div>
             </div>
-            
+
             <div class="hero-image fade-in delay-1">
                 <img src="https://avatars.githubusercontent.com/u/95588788?v=4" alt="José Antonio da Silva Filho">
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
     <section class="about" id="about">
         <div class="container" id="projects">
             <div class="section-header fade-in">
                 <p id="about">Eu tenho desenvolvido por algum tempo, sonho em trabalhar na área</p>
                 <h2>Eu crio websites e aplicativos fáceis de usar</h2>
-                <h3>clique nas imagens e vá para o projeto</h3>
+                <h3>clique em um tópico e vá para o projeto</h3>
             </div>
-            
+
             <div class="projects-grid">
-                <a href="https://github.com/Junior2099/Placas_Casa_Carne" target="_blank" class="project-card fade-in delay-1">
-                    <img src="https://raw.githubusercontent.com/Junior2099/Placas_Casa_Carne/main/placa.png" alt="Placas da Casa de Carne">
+                <a href="https://junior2099.github.io/Placas_Casa_Carne/" target="_blank"
+                    class="project-card fade-in delay-1">
+
                     <div class="project-info">
                         <h3>Placas da Casa de Carne</h3>
                         <p>Um website criado para fazer placas, com preços e nomes para impressão</p>
                     </div>
                 </a>
-                
-                <a href="https://github.com/Junior2099/Organizador-de-Fotos" target="_blank" class="project-card fade-in delay-2">
-                    <img src="https://raw.githubusercontent.com/Junior2099/Organizador-de-Fotos/main/organiza.png" alt="Organizador de Fotos">
+
+                <a href="https://junior2099.github.io/copy-accounts-payment/" target="_blank"
+                    class="project-card fade-in delay-2">
+                  
                     <div class="project-info">
-                        <h3>Organizador de Fotos</h3>
-                        <p>Um website para organizar e imprimir fotos de diferentes tamanhos</p>
+                        <h3>Segunda via de Contas</h3>
+                        <p>Um website para puxar segunda via de contas</p>
                     </div>
                 </a>
-                
-                <a href="https://github.com/Junior2099/Fotos-Polaroid" target="_blank" class="project-card fade-in delay-3">
-                    <img src="https://raw.githubusercontent.com/Junior2099/Fotos-Polaroid/main/polaroid.png" alt="Transformar fotos em polaroid">
+
+                <a href="https://junior2099.github.io/Juntar-Documentos/" target="_blank"
+                    class="project-card fade-in delay-3">
+                  
                     <div class="project-info">
-                        <h3>Transformar fotos em polaroid</h3>
-                        <p>Um website para transformar fotos em tamanho polaroid</p>
+                        <h3>Juntar Documentos</h3>
+                        <p>Um site que junta documentos (FOTOS e PDF's)</p>
                     </div>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Projects/Services Section -->
     <section class="projects" id="services">
         <div class="container">
             <div class="section-header fade-in">
                 <p>O que eu posso fazer por você</p>
                 <h2>Minhas Habilidades</h2>
             </div>
-            
+
             <div class="services-grid">
                 <div class="service-card fade-in delay-1">
                     <i class="ri-code-s-slash-line"></i>
                     <h3>Desenvolvimento Web</h3>
                     <p>Criação de websites responsivos e otimizados para todos os dispositivos.</p>
                 </div>
-                
+
                 <div class="service-card fade-in delay-2">
                     <i class="ri-smartphone-line"></i>
                     <h3>Design Responsivo</h3>
                     <p>Sites que se adaptam perfeitamente a qualquer tamanho de tela.</p>
                 </div>
-                
+
                 <div class="service-card fade-in delay-1">
                     <i class="ri-palette-line"></i>
                     <h3>UI/UX Design</h3>
                     <p>Interfaces intuitivas e agradáveis que melhoram a experiência do usuário.</p>
                 </div>
-                
+
                 <div class="service-card fade-in delay-2">
                     <i class="ri-bug-line"></i>
                     <h3>Otimização</h3>
@@ -752,13 +782,12 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="section-header fade-in">
                 <h2>Interessado em Trabalhar Juntos?</h2>
             </div>
-            
+
             <div class="contact-grid">
                 <div class="contact-card fade-in delay-1">
                     <h3>Agende uma chamada</h3>
@@ -767,7 +796,7 @@
                         Agendar uma Chamada
                     </a>
                 </div>
-                
+
                 <div class="contact-card fade-in delay-2">
                     <h3>Explore Meu Trabalho</h3>
                     <p>Veja meu portfólio para ver o tipo de trabalho que faço para você.</p>
@@ -779,7 +808,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -794,34 +822,31 @@
         </div>
     </footer>
 
-    <!-- Back to Top Button -->
     <a href="#" class="back-to-top" aria-label="Voltar ao topo">
         <i class="ri-arrow-up-line"></i>
     </a>
 
     <script>
-        // Mobile Menu Toggle
+
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
-        
+
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
-            menuToggle.innerHTML = navLinks.classList.contains('active') 
-                ? '<i class="ri-close-line"></i>' 
+            menuToggle.innerHTML = navLinks.classList.contains('active')
+                ? '<i class="ri-close-line"></i>'
                 : '<i class="ri-menu-line"></i>';
         });
-        
-        // Close menu when clicking on a link
+
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
                 menuToggle.innerHTML = '<i class="ri-menu-line"></i>';
             });
         });
-        
-        // Back to Top Button
+
         const backToTopButton = document.querySelector('.back-to-top');
-        
+
         window.addEventListener('scroll', () => {
             if (window.pageYOffset > 300) {
                 backToTopButton.classList.add('active');
@@ -829,15 +854,14 @@
                 backToTopButton.classList.remove('active');
             }
         });
-        
-        // Smooth scrolling for anchor links
+
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 if (targetId === '#') return;
-                
+
                 const targetElement = document.querySelector(targetId);
                 if (targetElement) {
                     window.scrollTo({
@@ -847,29 +871,25 @@
                 }
             });
         });
-        
-        // Animation on scroll
+
         const animateOnScroll = () => {
             const elements = document.querySelectorAll('.fade-in');
-            
+
             elements.forEach(element => {
                 const elementPosition = element.getBoundingClientRect().top;
                 const windowHeight = window.innerHeight;
-                
+
                 if (elementPosition < windowHeight - 100) {
                     element.style.opacity = '1';
                     element.style.transform = 'translateY(0)';
                 }
             });
         };
-        
-        // Run once on page load
+
         animateOnScroll();
-        
-        // Run on scroll
+
         window.addEventListener('scroll', animateOnScroll);
-        
-        // Translate button functionality
+
         document.getElementById('translateBtn')?.addEventListener('click', () => {
             window.location.href = 'index-en.html';
         });
