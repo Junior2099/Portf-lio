@@ -1,3 +1,3 @@
 Acesse o site: https://junior2099.github.io/Portf-lio/
 
-![image](https://github.com/user-attachments/assets/122355cd-7b09-41c3-bc9e-ec7211b10f02)
+![image](https://github.com/user-attachments/assets/677e86eb-a998-42fc-9311-6d8abd7c4a11)
